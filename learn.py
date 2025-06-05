@@ -1,14 +1,9 @@
-ism = "Ali"
-yosh = 25
-boy = 1.75
-student = True
+a=5
+b=3
 
-print(ism)
-print(yosh)
-print(boy)
-print(student)
+print(a + b)
 
-print(type(ism))
-print(type(yosh))
-print(type(boy))
-print(type(student))
+a=10
+b=2
+
+print(a-2)
