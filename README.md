@@ -1,2 +1,2 @@
 # Python darsi.
-## If ga example
+## for ga example

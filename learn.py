@@ -1,8 +1,7 @@
-yosh = int(input("Yoshingizni kiriting: "))
+mevalar = ["Olma", "Banan", "Anor", "Gilos", "Olcha", "Qulupnay", "Uzum", "Gilos", "Nok"]
 
-if yosh < 18:
-    print("Siz hali yoshsiz")
-elif yosh == 18:
-    print("Siz 18 yoshdasiz")
-else:
-    print("Siz kattasiz")
+for meva in mevalar:
+    print(meva)
+
+for i in range(1, 11):
+    print(i)
