@@ -1,9 +1,8 @@
-a=5
-b=3
+print(5 + 3)
+print(10 - 2)
+print(4 * 2)
+print(16 / 2)
 
-print(a + b)
-
-a=10
-b=2
-
-print(a-2)
+print(5 == 5)
+print(5 != 3)
+print(5 > 3)
