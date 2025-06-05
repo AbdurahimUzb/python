@@ -1,2 +1,2 @@
 # Python darsi.
-## for ga example
+## while ga example
