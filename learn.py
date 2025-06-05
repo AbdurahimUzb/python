@@ -1,8 +1,8 @@
-print(5 + 3)
-print(10 - 2)
-print(4 * 2)
-print(16 / 2)
+yosh = int(input("Yoshingizni kiriting: "))
 
-print(5 == 5)
-print(5 != 3)
-print(5 > 3)
+if yosh < 18:
+    print("Siz hali yoshsiz")
+elif yosh == 18:
+    print("Siz 18 yoshdasiz")
+else:
+    print("Siz kattasiz")
