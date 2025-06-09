@@ -1,5 +1,6 @@
-cout=1
+first_name="John"
+food="Pizza"
+age=30
 
-while cout <= 10:
-    print(cout)
-    cout += 1
+print(f"My name is {first_name} and I love {food}.")
+print(f"I am {age} years old.")
