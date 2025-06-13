@@ -1,2 +1,2 @@
 # Python darsi.
-## Sodda shoping example bo'ldi
+## Madlibs game example.
