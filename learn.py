@@ -1,5 +1,7 @@
-length = float(input("Enter the length: "))
-width = float(input("Enter the width: "))
+item = input("What item woukld you like to buy?: ")
+price = float(input("What is the price of the item?: "))
+quantity = int(input("How many would you like to buy?: "))
 
-area = length * width
-print("The area of the rectangle is: ", area)
+total = price * quantity
+
+print(f"You have purchased {quantity} {item}(s) at a price of ${price:.2f} each for a total of ${total:.2f}.")
