@@ -1,2 +1,2 @@
 # Python darsi.
-## while ga example
+## Console orqalik 3 burchakning kvadratini hisoblaydigan example
