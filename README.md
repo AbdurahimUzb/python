@@ -1,10 +1,9 @@
 # Python darsi.
-## difference() methodi berilgan 
+## intersection() methodi example
 
 a = {1, 2, 3, 4}
 b = {3, 4, 5, 6}
 
-farq = a.difference(b)
-print(farq)  
-
-### Natija: {1, 2}
+umumiy = a.intersection(b)
+print(umumiy)
+### Natija: {3, 4}
