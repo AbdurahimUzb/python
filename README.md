@@ -1,10 +1,9 @@
 # Python darsi.
-## issubset() methodi example
-### Agar birinchi to‘plam ikkinchi to‘plamning qism to‘plami bo‘lsa, True qaytaradi.
+## issuperset() methodi example
+### Agar birinchi to‘plam ikkinchi to‘plamni to‘liq o‘z ichiga olsa, True qaytaradi.
 
-a = {1, 2}
-b = {1, 2, 3}
+a = {1, 2, 3}
+b = {1, 2}
 
-print(a.issubset(b))
-
+print(a.issuperset(b))  
 # Natija: True

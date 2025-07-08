@@ -1,4 +1,5 @@
-a = {1, 2}
-b = {1, 2, 3}
-print(a.issubset(b))
+a = {1, 2, 3}
+b = {1, 2}
+
+print(a.issuperset(b))
 # Natija: True
