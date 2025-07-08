@@ -1,5 +1,9 @@
 a = {1, 2, 3}
-b = {1, 2}
+element = a.pop()
+print(element)
 
-print(a.issuperset(b))
-# Natija: True
+# Natija: 1 (yoki 2 yoki 3, tartib yo‘q)
+
+print(a)
+
+# Qolgan elementlar
