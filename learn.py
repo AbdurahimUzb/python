@@ -1,5 +1,6 @@
-my_set = {1, 2, 3}
+a = {1, 2, 3, 4}
+b = {3, 4, 5, 6}
 
-my_set.discard(4)
+farq = a.difference(b)
 
-print(my_set)
+print(farq)
