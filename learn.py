@@ -1,6 +1,4 @@
-a = {1, 2, 3, 4}
-b = {3, 4, 5, 6}
-
-umumiy = a.intersection(b)
-
-print(umumiy)
+a = {1, 2}
+b = {1, 2, 3}
+print(a.issubset(b))
+# Natija: True

@@ -1,9 +1,10 @@
 # Python darsi.
-## intersection() methodi example
+## issubset() methodi example
+### Agar birinchi to‘plam ikkinchi to‘plamning qism to‘plami bo‘lsa, True qaytaradi.
 
-a = {1, 2, 3, 4}
-b = {3, 4, 5, 6}
+a = {1, 2}
+b = {1, 2, 3}
 
-umumiy = a.intersection(b)
-print(umumiy)
-### Natija: {3, 4}
+print(a.issubset(b))
+
+# Natija: True
