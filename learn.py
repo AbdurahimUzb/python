@@ -1,14 +1,7 @@
-def divide_nums(a, b):
-    if b == 0:
-        raise TypeError("Second argument can't be 0")
-    return a / b
+my_fruits = ['apple', 'banana', 'lime']
 
+my_apple, my_banana, my_lime = my_fruits
 
-try:
-    divide_nums(10, 0)
-except ZeroDivisionError as e:
-    print(e)
-except TypeError as e:
-    print(e)
-
-print("Continue...")
+print(my_apple)
+print(my_banana)
+print(my_lime)
