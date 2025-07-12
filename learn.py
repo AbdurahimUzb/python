@@ -1,13 +1,22 @@
-user_profile = {
-    'name': 'Bogdan',
-    'comments_qty':  23,
+def route_info(distance):
+
+    dis = distance.get("distance")
+    speed = distance.get("speed")
+    time = distance.get("time")
+
+    if distance and time:
+        print(
+            f"Distance to your destination is {speed * time}")
+    elif dis:
+        print(f"Distance to your destination {dis}")
+    else:
+        print("No distance info is available")
+
+
+example = {
+    "time": 10,
+    "speed": 2,
+    "distance": "1000 meter",
 }
 
-
-def user_info(name, comments_qty=0):
-    if not comments_qty:
-        return f"{name} has no comments"
-    return f"{name} has {comments_qty} comments"
-
-
-print(user_info(**user_profile))
+route_info(example)
