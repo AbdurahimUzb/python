@@ -1,4 +1,7 @@
-import random
-example = random.randint(-10, 10)
-print(f"Positive: {example}" if example
-      > 0 else f"Negative: {example}")
+my_object = {
+    'a': 10,
+    'b': True,
+}
+
+for key, value in my_object.items():
+    print(f"{key} : {value}")
