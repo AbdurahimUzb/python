@@ -1,9 +1,8 @@
-a = {1, 2, 3}
-element = a.pop()
-print(element)
+try:
+    print(10 + "2")
+except ZeroDivisionError as e:
+    print(e)
+except TypeError as e:
+    print(e)
 
-# Natija: 1 (yoki 2 yoki 3, tartib yo‘q)
-
-print(a)
-
-# Qolgan elementlar
+print("Continue...")
