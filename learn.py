@@ -1,7 +1,13 @@
-my_fruits = ['apple', 'banana', 'lime']
+user_profile = {
+    'name': 'Bogdan',
+    'comments_qty':  23,
+}
 
-my_apple, my_banana, my_lime = my_fruits
 
-print(my_apple)
-print(my_banana)
-print(my_lime)
+def user_info(name, comments_qty=0):
+    if not comments_qty:
+        return f"{name} has no comments"
+    return f"{name} has {comments_qty} comments"
+
+
+print(user_info(**user_profile))
