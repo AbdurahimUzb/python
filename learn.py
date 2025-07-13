@@ -1,7 +1,5 @@
-my_object = {
-    'a': 10,
-    'b': True,
-}
+import sys
 
-for key, value in my_object.items():
-    print(f"{key} : {value}")
+print("Script nomi: ", sys.argv[0])
+print("Argumentlar soni: ", len(sys.argv)-1)
+print("Argumentlar: ", sys.argv[1:])
