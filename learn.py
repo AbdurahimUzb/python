@@ -1,9 +1,7 @@
 import sys
 
+sys.stdout.write("Bu oddiy habar\n")
+# Standart chiqish
 
-new_path = "./users/mening_papkam"
-sys.path.append(new_path)
-
-print("Import yo'llari:")
-for path in sys.path:
-    print(path)
+sys.stderr.write("Bu xato habari\n")
+# Standart xato
